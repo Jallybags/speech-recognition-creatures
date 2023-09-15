@@ -24,6 +24,14 @@ If it is correct, press CONFIRM_KEY, and subsequent presses of the CANCEL_KEY wi
 Press SUSPEND_KEY and the program will not listen or cancel until you press UNSUSPEND_KEY
 Need to run as administrator if Creatures is running as administrator (it's pynput that needs this)
 Make sure main program (e.g. "Creatures 2 - NornName") is active, and not an applet, or the words typed won't be sent to the main program
+
 ######################
-##### END USAGE ######
+######## KEYS ########
 ######################
+CANCEL_KEY     : Left Shift   : enters a number of backspaces equal to the length of the entered text
+LISTEN_KEY     : Right Shift  : starts listening operation
+END_LISTEN_KEY : Either Shift : ends listening operation
+CONFIRM_KEY    : Enter        : confirms entered text (i.e. text cannot be cancelled)
+SUSPEND_KEY    : Left Alt     : listen/cancel cannot be called when suspended
+UNSUSPEND_KEY  : Alt Gr       : unsuspends, listen/cancel can be called
+ESCAPE_KEY     : Escape       : quits program

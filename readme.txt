@@ -13,7 +13,8 @@ py -m speech_recognition_creatures.py
 Parameters in the speech_recognition_creatures.py file
 
 ######################
-USAGE: ########
+####### USAGE ########
+######################
 If using Vosk: Download and extract a Vosk model folder, rename it "model" and place it in this script's location (vosk-model-small-en-us-0.15 works well for me)
 If using Google (doesn't work as well for me): need an internet connection
 Press LISTEN_KEY and your speech will be recorded, press END_LISTEN_KEY and your recorded speech will be transcribed

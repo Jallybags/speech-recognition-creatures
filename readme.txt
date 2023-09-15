@@ -24,5 +24,6 @@ If it is correct, press CONFIRM_KEY, and subsequent presses of the CANCEL_KEY wi
 Press SUSPEND_KEY and the program will not listen or cancel until you press UNSUSPEND_KEY
 Need to run as administrator if Creatures is running as administrator (it's pynput that needs this)
 Make sure main program (e.g. "Creatures 2 - NornName") is active, and not an applet, or the words typed won't be sent to the main program
-END USAGE ######
+######################
+##### END USAGE ######
 ######################

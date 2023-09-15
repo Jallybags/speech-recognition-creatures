@@ -9,3 +9,5 @@ Needs a vosk model (https://alphacephei.com/vosk/models) (put in same directory 
 
 How I run it on Windows:
 py -m speech_recognition_creatures.py
+
+Parameters in the speech_recognition_creatures.py file
